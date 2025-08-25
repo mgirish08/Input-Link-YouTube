@@ -129,7 +129,7 @@ export default function YouTubeInputForm() {
             </Typography>
             <TextField
               fullWidth
-              label="https://youtube.com/watch?v=..."
+              label="Input Link Disini"
               variant="outlined"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
